@@ -1,0 +1,4 @@
+spring:
+  banner:
+    charset: utf-8
+    location: classpath:bannerText.txt
