@@ -9,9 +9,3 @@ github copilot 快捷键
 触发内联建议	Alt+\
 打开 GitHub Copilot（单独窗格中的其他建议）	Alt+Enter
 
-
-
-test text
-1234
-abcd
-

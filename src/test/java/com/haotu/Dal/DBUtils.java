@@ -63,6 +63,8 @@ public class DBUtils {
             users.add(new User(id, name, age));
             return null;
         });
-        System.out.println(users);
+        for (User user : users) {
+            System.out.println(user);
+        }
     }
 }
