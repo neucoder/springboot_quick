@@ -1,5 +1,6 @@
 package com.haotu.designpattern.singleton;
 
+import com.haotu.designpattern.creational.patterns.singleton.Singleton1;
 import org.junit.jupiter.api.Test;
 
 import static org.testng.Assert.*;

@@ -1,4 +1,4 @@
-package com.haotu.designpattern.singleton;
+package com.haotu.designpattern.creational.patterns.singleton;
 
 /**
  * 枚举实现单例模式

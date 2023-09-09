@@ -1,4 +1,4 @@
-package com.haotu.designpattern.singleton;
+package com.haotu.designpattern.creational.patterns.singleton;
 
 /**
  * 双重检查
