@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Objects;
-
+//迭代器模式
 class ListIterator implements Iterator {
     private List list;
     private int index;
