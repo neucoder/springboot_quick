@@ -4,12 +4,13 @@
 ## 设计模式
 com.haotu.designpattern
 
-## ortools
-com.haotu.ortools
+## tools and doc
+- 优化求解包 com.haotu.ortools
+- [guava包文档](https://doc.yonyoucloud.com/doc/wiki/project/google-guava-official-tutorial/listenablefuture.html)
+
 
 ## todo
-
-- guava eventbus 异步
+- java 并发编程
 - guava 缓存 和 Caffeine缓存框架
 - 缓存框架调研 https://www.cnblogs.com/imyjy/p/15695160.html
 
