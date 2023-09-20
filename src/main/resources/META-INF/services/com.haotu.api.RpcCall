@@ -1,0 +1,3 @@
+com.haotu.api.impl.RpcServiceImpl
+com.haotu.api.impl.RemoteRpcImpl
+com.haotu.api.impl.JvmRpcImpl
