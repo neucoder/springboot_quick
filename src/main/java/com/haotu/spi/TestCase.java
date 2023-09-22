@@ -10,6 +10,11 @@ public class TestCase {
         for (RpcCall call : ServiceLoader.load(RpcCall.class)) {
             call.call("hello");
         }
+        ServiceLoader<Search> searchServics = ServiceLoader.load(Search.class);
+        for (Search searchServic : searchServics) {
+            searchServic.searchDoc("hello");
+        }
+
     }
 }
 
