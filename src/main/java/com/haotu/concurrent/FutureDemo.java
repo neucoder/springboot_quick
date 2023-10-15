@@ -1,5 +1,7 @@
 package com.haotu.concurrent;
 
+import org.apache.commons.lang3.concurrent.BasicThreadFactory;
+
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -29,6 +31,7 @@ class FutureDemo {
             e.printStackTrace();
         }
         executorService.shutdown();
+        new BasicThreadFactory.Builder().namingPattern("demo-pool-%d").build();
     }
 }
 
