@@ -2,6 +2,8 @@ package com.haotu.service;
 
 import org.powermock.api.mockito.PowerMockito;
 import org.powermock.core.classloader.annotations.PrepareForTest;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.annotations.Test;
 
 //
@@ -24,5 +26,12 @@ public class ExampleServiceTest {
         System.out.println(spy.add2(p1, p2));
         System.out.println(spy.add2(p1, p2));
         System.out.println(spy.add2(p1, new Point(1,3)));
+
+        //use slf4j and logback print log
+        Logger logger =  LoggerFactory.getLogger(ExampleServiceTest.class);
+        logger.info("hello world");
+        logger.info("{}, {}", 12, 3);
+        logger.warn("warn");
+        logger.error("a error");
     }
 }
