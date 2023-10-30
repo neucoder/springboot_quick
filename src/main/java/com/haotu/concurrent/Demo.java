@@ -1,7 +1,5 @@
 package com.haotu.concurrent;
 
-import java.util.concurrent.ThreadPoolExecutor;
-
 class A {
     int a;
 }
@@ -17,8 +15,11 @@ class B extends A {
 
 public class Demo {
     public static void main(String[] args) throws InterruptedException {
-        System.out.println("Hello World!");
-        new ThreadPoolExecutor(1, 1, 1, null, null);
-
+        Double s = 0.0;
+        long N = 100_0000L;
+        for (int i = 0; i < N; i++) {
+            s += i * i;
+        }
+        System.out.println("s = " + s);
     }
 }
