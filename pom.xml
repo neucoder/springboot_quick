@@ -11,8 +11,13 @@
 	<groupId>com.haotu</groupId>
 	<artifactId>springBoot_quick</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
 	<name>springBoot_quick</name>
 	<description>springBoot_quick</description>
+	<modules>
+		<module>test</module>
+		<module>first</module>
+	</modules>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
