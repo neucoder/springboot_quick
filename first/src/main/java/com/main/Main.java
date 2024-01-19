@@ -31,7 +31,7 @@ public class Main {
         }
     }
     public static void invokeAnotherTest() throws MalformedURLException {
-        String jarPath = "C:\\Users\\ys\\code\\springboot_quick\\test\\target\\mytest-1.0.0-SNAPSHOT.jar";
+        String jarPath = "C:\\Users\\ys\\code\\springboot_quick\\test\\target\\mytest-1.2.0-SNAPSHOT.jar";
         URLClassLoader myLoader = new MyClassLoader(new URL[]{new File(jarPath).toURI().toURL()});
         try {
             Class<?> clazz = myLoader.loadClass("com.common.niubi.Test");
